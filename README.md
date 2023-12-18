@@ -17,13 +17,13 @@ Navigate to MySQL Workbench and run the following commands:
     use test;
 3) ```sql 
     CREATE TABLE `books` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `title` varchar(1000) NOT NULL,
-  `desc` varchar(1000) NOT NULL,
-  `cover` varchar(1000) DEFAULT NULL,
-  `price` int NOT NULL,
-  PRIMARY KEY (`id`)
-);
+        `id` int NOT NULL AUTO_INCREMENT,
+        `title` varchar(1000) NOT NULL,
+        `desc` varchar(1000) NOT NULL,
+        `cover` varchar(1000) DEFAULT NULL,
+        `price` int NOT NULL,
+        PRIMARY KEY (`id`)
+    );
 
 
 Now, navigate to the terminal and cd into this project directory.
