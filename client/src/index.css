@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+body, .updateLink, .deleteButton{
+  font-family: 'Rubik', sans-serif;
+  color: #ffffff;
+  background-color: #333333;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.addABook{
+  color:#ffffff;
+}
+.addABook:hover{
+  color:#aea2a2;
+}
+table {
+  margin: auto;
+  width: 70%; 
+  border-collapse: collapse;
+}
+th, td {
+  border: 2px solid #ddd; 
+  padding: 8px; 
+  text-align: center; 
+}
+img{
+  max-width: 100%;
+  margin:auto;
+}
+
+.updateLink, .deleteButton {
+  text-decoration: none;
+  color: #ffffff;
+  cursor:pointer;
+}
+.deleteButton, .updateButton {
+  background-color:#333333;
+}
+.deleteButton {
+  color: red;
+  border-color:red;
+}
+.updateLink {
+  color:rgb(114, 195, 222);
+}
+.updateButton {
+  border-color:rgb(114, 195, 222);
+}
+.addBook{
+  text-align: center;
+  font-size:2rem;
+}
+
+.form {
+
+}
