@@ -25,7 +25,6 @@ Navigate to MySQL Workbench and run the following commands:
         PRIMARY KEY (`id`)
     );
 
-
 Now, navigate to the terminal and cd into this project directory.
 
 Run the following commands:
